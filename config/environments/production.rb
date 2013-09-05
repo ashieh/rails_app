@@ -47,7 +47,7 @@ SampleApp::Application.configure do
 
   #Force all access to the app over SSL, use Strict-Transport-SEcurity,
   #and use secure cookies.
-  config.force_ssl = true
+  #config.force_ssl = true
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
