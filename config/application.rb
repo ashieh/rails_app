@@ -25,5 +25,6 @@ module SampleApp
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.secret_key_base = 1ae53b7d19f11b6f8002709a3f69bcfcd82e896d90cd639c88552b0244f2f48608868c09bced7ddcce6687f1a4e94ef127395759ce60bfc6131f0c1af25e1974
   end
 end
